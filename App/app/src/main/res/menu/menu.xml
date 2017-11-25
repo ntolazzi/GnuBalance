@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- "Mark Favorite", should appear as action button if possible -->
+    <item
+        android:id="@+id/update"
+        android:icon="@drawable/button_bg_round"
+        app:showAsAction="always"
+        android:title="update" />
+
+    <item
+        android:id="@+id/upload"
+        android:icon="@drawable/button_bg_round"
+        app:showAsAction="always"
+        android:title="upload" />
+
+    <!--&lt;!&ndash; Settings, should always be in the overflow &ndash;&gt;-->
+    <!--<item android:id="@+id/action_settings"-->
+        <!--app:showAsAction="never"/>-->
+
+</menu>
